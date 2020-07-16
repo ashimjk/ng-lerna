@@ -124,6 +124,111 @@
           }
         }
       }
+    },
+    "lerna-common": {
+      "projectType": "library",
+      "root": "projects/lerna-common",
+      "sourceRoot": "projects/lerna-common/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/lerna-common/tsconfig.lib.json",
+            "project": "projects/lerna-common/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/lerna-common/src/test.ts",
+            "tsConfig": "projects/lerna-common/tsconfig.spec.json",
+            "karmaConfig": "projects/lerna-common/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/lerna-common/tsconfig.lib.json",
+              "projects/lerna-common/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "lerna-sample": {
+      "projectType": "library",
+      "root": "projects/lerna-sample",
+      "sourceRoot": "projects/lerna-sample/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/lerna-sample/tsconfig.lib.json",
+            "project": "projects/lerna-sample/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/lerna-sample/src/test.ts",
+            "tsConfig": "projects/lerna-sample/tsconfig.spec.json",
+            "karmaConfig": "projects/lerna-sample/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/lerna-sample/tsconfig.lib.json",
+              "projects/lerna-sample/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "lerna-control": {
+      "projectType": "library",
+      "root": "projects/lerna-control",
+      "sourceRoot": "projects/lerna-control/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/lerna-control/tsconfig.lib.json",
+            "project": "projects/lerna-control/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/lerna-control/src/test.ts",
+            "tsConfig": "projects/lerna-control/tsconfig.spec.json",
+            "karmaConfig": "projects/lerna-control/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/lerna-control/tsconfig.lib.json",
+              "projects/lerna-control/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "ng-lerna"
 }

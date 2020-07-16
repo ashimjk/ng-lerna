@@ -17,7 +17,27 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "lerna-common": [
+        "dist/lerna-common"
+      ],
+      "lerna-common/*": [
+        "dist/lerna-common/*"
+      ],
+      "lerna-sample": [
+        "dist/lerna-sample"
+      ],
+      "lerna-sample/*": [
+        "dist/lerna-sample/*"
+      ],
+      "lerna-control": [
+        "dist/lerna-control"
+      ],
+      "lerna-control/*": [
+        "dist/lerna-control/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
