@@ -8,9 +8,9 @@ lerna publish --conventional-commits --conventional-prerelease --preid $(git rev
 
 ## Use case
 ### Scenario 1
-- fix common
-- feat control
-- fix common
+- fix common    v6.0.1-alpha.0
+- feat control  v6.1.0-alpha.0
+- fix common    v6.1.0-alpha.1
 
 ### Scenario 2
 - feat control
