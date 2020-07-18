@@ -16,23 +16,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### BREAKING CHANGES
 
 * key in config file is now used for extending other config files
-
-
-
-
-
-## [1.1.1](https://github.com/ashimjk/ng-lerna/compare/v1.1.1-alpha.0...v1.1.1) (2020-07-18)
-
-**Note:** Version bump only for package ng-lerna
-
-
-
-
-
-## 1.1.1-alpha.0 (2020-07-18)
-
-
-### Features
-
-* [@corpay](https://github.com/corpay) ([1a5b9fa](https://github.com/ashimjk/ng-lerna/commit/1a5b9fadca6d8d5ad4a68fd0ab9b6b7399ea88df))
-* add projects ([460a7a2](https://github.com/ashimjk/ng-lerna/commit/460a7a250c76ca86737568d96f6448b4e06e0537))
