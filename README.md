@@ -20,7 +20,7 @@ lerna publish --conventional-commits --conventional-prerelease --preid $(git rev
 
 > lerna publish --no-push --no-changelog --canary --preid $(git rev-parse --short HEAD)-$(date +%s)
 - fix common    6.1.1-1e985db-1595088865.1+1e985db
-- feat control  
+- feat control  6.1.1-d48814d-1595092763.2+d48814d
 - fix common    
 
 ### Scenario 2
