@@ -13,6 +13,11 @@ lerna publish --conventional-commits --conventional-prerelease --preid $(git rev
 - feat control  v6.1.0-alpha.0
 - fix common    v6.1.0-alpha.1
 
+> lerna publish --no-push --no-changelog --conventional-commits --conventional-graduate
+- common    v6.1.0
+- control   v6.1.0
+- common    v6.1.0
+
 ### Scenario 2
 - feat control
 - feat common
