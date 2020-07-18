@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/ashimjk/ng-lerna/compare/v3.0.0...v4.0.0) (2020-07-18)
+
+
+### Features
+
+* allow provided config object to extend other configs ([3dc35ba](https://github.com/ashimjk/ng-lerna/commit/3dc35bac8165d4dc696ae0a7377723cbe91eca8a))
+
+
+### BREAKING CHANGES
+
+* key in config file is now used for extending other config files
+
+
+
+
+
 # [3.0.0](https://github.com/ashimjk/ng-lerna/compare/v2.0.0...v3.0.0) (2020-07-18)
 
 **Note:** Version bump only for package @corpay/lerna-common
