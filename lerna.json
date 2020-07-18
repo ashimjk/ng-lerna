@@ -2,7 +2,7 @@
   "packages": [
     "projects/*"
   ],
-  "version": "5.0.2-alpha.1",
+  "version": "5.0.2-alpha.2",
   "command": {
     "publish": {
       "registry": "https://nexus.corporate-dev.progressoft.cloud/repository/kryptonite-npm/"
