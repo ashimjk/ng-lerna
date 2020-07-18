@@ -1,6 +1,6 @@
 {
   "name": "@corpay/lerna-common",
-  "version": "5.0.2",
+  "version": "5.0.3-aa13e04-1595080017.0",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
