@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build lerna-common && ng build lerna-control && ng build lerna-sample",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
