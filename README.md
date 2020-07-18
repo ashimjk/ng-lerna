@@ -8,6 +8,7 @@ lerna publish --conventional-commits --conventional-prerelease --preid $(git rev
 
 ## Use case
 ### Scenario 1
+> lerna publish --no-push --no-changelog --conventional-commits --conventional-prerelease
 - fix common    v6.0.1-alpha.0
 - feat control  v6.1.0-alpha.0
 - fix common    v6.1.0-alpha.1
