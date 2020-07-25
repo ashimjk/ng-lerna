@@ -2,7 +2,11 @@
 
 lerna version $TAG --conventional-commits --no-git-tag-version --no-push --no-granular-pathspec --no-changelog --yes
 
+-- other
 lerna version --conventional-prerelease --preid "${CI_COMMIT_SHORT_SHA}" --conventional-commits --no-push --no-changelog --yes
+
+-- updated
+lerna version --conventional-prerelease --preid "$(git rev-parse --short HEAD)" --conventional-commits --no-push --no-changelog --yes --no-git-tag-version
 
 lerna publish --conventional-commits --conventional-prerelease --preid $(git rev-parse --short HEAD)-$(date +%s) --no-push --dist-tag latest --canary
 
